@@ -1,0 +1,8 @@
+=====================
+dongyeong Spring Boot ${spring-boot.version}
+=====================
+
+=====================
+dongyeong Spring Boot ${application.version}
+=====================
+#jar로 패키징할 떄 menifest 파일을 만들면서 사용할 수 있는 변수
