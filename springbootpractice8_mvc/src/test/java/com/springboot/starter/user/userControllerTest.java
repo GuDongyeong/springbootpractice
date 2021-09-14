@@ -31,7 +31,6 @@ public class userControllerTest {
 				.andExpect((ResultMatcher) content().string("hello"));
 	}
 	
-//	@SuppressWarnings("deprecation")
 	@Test
 	public void createUser_JSON() throws Exception {
 		String userJson = "{\"username\":\"dongyeong\", \"password\":\"1234\"}";
