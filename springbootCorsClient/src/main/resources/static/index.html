@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>CORS Client</h1>
+<script type="text/javascript" src="/webjars/jquery/3.5.1/dist/jquery.min.js"></script>
+<script type="text/javascript">
+	$.ajax("http://localhost:8080/hello")
+		.done(function(msg){
+			alert(msg);
+		})
+		.fail(function(){
+			alert("fail");
+		});
+
+</script>
+</body>
+</html>
